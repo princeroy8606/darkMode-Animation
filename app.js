@@ -11,11 +11,11 @@ let toggle = false;
 
 darkMode.addEventListener("click", () => {
   //anime .js used
-  // const timeline = anime.timeline({
-  //   duration: 1,
-  //   easing: "easeOutExpo",
-  // });
-  //adding animation
+  let timeline = anime.timeline({
+    duration: 750,
+    easing: "easeOutExpo",
+  });
+  // adding animation
   timeline
     .add({
       targets: ".sun",
